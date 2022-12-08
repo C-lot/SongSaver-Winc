@@ -1,0 +1,45 @@
+.header {
+  display: flex;
+  justify-content: center;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(182, 31, 119);
+  margin-bottom: 50px;
+}
+
+nav ul li {
+  display: inline;
+  margin: 50px;
+  list-style: none;
+  color: #fff;
+}
+
+.input {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.input label {
+  display: inline;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.about {
+  text-align: center;
+  display: inline;
+}
+
+.song-items:nth-child(even) {
+  background-color: rgb(201, 148, 183);
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
